@@ -8,11 +8,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="h-grid">
+    <header class="header">
         <nav class="nav aux-grid">
             <a href="#" class="nav__logo">Fuja</a>
+
             <div class="nav__toggle" id="nav-toggle">
-                <box-icon name='menu'></box-icon>
+                <i class='bx bx-menu-alt-right' ></i>
             </div>
 
             <div class="nav__menu" id="nav-menu">
@@ -27,9 +28,38 @@
 
     </header>
     
+    <div class="home">
+        <div class="parallax home__parallax home__parallax-img1" data-rellax-speed="-9"></div>
+        <div class="parallax home__parallax home__parallax-img2" data-rellax-speed="-7"></div>
+        <div class="parallax home__parallax home__parallax-img3" data-rellax-speed="-6"></div>
+        <div class="parallax home__parallax home__parallax-img4" data-rellax-speed="-3"></div>
+
+        <h1 class="parallax home__titulo" data-rellax-speed="-6">Monte Fuja</h1>
+        <span class="parallax home__sub" data-rellax-speed="-5">Fuja do dia-a-dia no monte Fuja</span>
+
+        <div class="home__scroll">
+            <a href="#section"><i class='bx bx-mouse' ></i></a>
+        </div>
+    </div>
+
+    <section class="bg-section" id="section">
+        <div class="section">
+            <div class="section__data">
+                <h2 class="section__titulo">
+                    Suba Montanha
+                </h2>
+                <p class="section__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio blanditiis deleniti laborum quasi ipsam ex itaque omnis iste id error explicabo vero quae fugit rerum molestias magnam, aliquid maxime reiciendis?</p>
+            </div>
+
+            <img src="imgs/imgm.jpg" alt="" class="section__img" srcset="">
+        </div>
+    </section>
 </body>
 
-<script src="https://unpkg.com/boxicons@2.1.1/dist/boxicons.js"></script>
+<link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
 <script src="rellax.min.js"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
 <script src="main.js"></script>
+
 </html>
